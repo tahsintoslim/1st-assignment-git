@@ -1,0 +1,199 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap');
+
+:root{
+    --primary-color: #3d5cb8;
+    --primary-color-dark: #334c99;
+    --text-dark: #0f172a;
+    --text-light: #64748b;
+    --extra-light: #f1f5f9;
+    --white: #ffffff;
+    --max-width: 1200px;
+}
+#red{
+    color: red;
+    font-size: 88px;
+}
+#large{
+    font-size: 64px;
+
+}
+#font{
+    font-size: 24;
+}
+#Our{ 
+
+    font-size: 48px;
+}
+#com{
+    font-size: 32px;
+}
+#regu{
+    font-size: 20px;
+}
+#size{
+    font-size: 72px;
+}
+*{
+    padding: 10px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #f2f2f2;
+    color: #333;
+}
+
+
+
+.new-year-message {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.container-1{
+    text-align: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image:url(../image/Banner\ Image.png);
+    height: 600px;
+    width: auto;
+    display: flex;
+    flex-wrap: wrap;
+    background-position: center;
+    text-align: center  ;
+    color: #ffffff;
+    padding: 40px;
+
+}
+.container-2{
+    text-align: center;
+
+}
+
+
+.container-3{
+    text-align: left;
+    justify-content:left;
+    color:#ffffff;
+    background-size: cover;
+    background-image: url(../image/Vectorrr.png);
+    background-position: center;
+    display: flex;
+    padding: 20px 0;
+    flex-wrap: wrap;
+    background-repeat: no-repeat;
+    height: 600px;
+    width: auto;
+    
+    
+
+
+}
+
+
+.container-4{
+    text-align: center;
+    font-size: 40px;
+
+}
+.container-5{
+    font-size: 30px;
+    font-weight: 100;
+
+}
+.container-6{
+    text-align: center;
+   
+
+}
+.container-7{
+    text-align: center;
+   
+
+}
+.image{
+    width: 100;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ffffff;
+
+}
+.image img{
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    border: 20,red;
+
+}
+
+
+
+
+
+.cta-button {
+    display: inline-block;
+    padding: 15px 30px;
+    font-size: 18px;
+    text-decoration: none;
+    background-color: hsl(6, 92%, 48%);
+    color: white;
+    border-radius: 5px;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.cta-button:hover {
+    background-color: #f7230b;
+}
+.subscribe {
+    background-color: var(--extra-light);
+  }
+  
+  .subscribe__container {
+    max-width: 500px;
+    text-align: center;
+  }
+  
+  .subscribe__form {
+    margin-top: 2rem;
+    padding: 5px;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    background-color: var(--white);
+    border-radius: 2rem;
+  }
+  
+  .subscribe__form input {
+    width: 100%;
+    padding: 0 1rem;
+    outline: none;
+    border: none;
+    font-size: 1rem;
+    color: var(--text-dark);
+  }
+
+footer {
+    border: 3;
+    background-color: #10161a;
+    padding: 20px 0;
+    color: white;
+}
+    
+}
+.footer__container {
+    grid-template-columns: 1fr;
+  }
+  .footer__bar {
+    flex-direction: column;
+    text-align: left;
+}
+.position{
+    text-align: left;
+    top: 0;
+}
